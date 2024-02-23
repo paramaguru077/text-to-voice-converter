@@ -93,6 +93,36 @@ select{
     background-position-x: 95%;
     background-position-y:20px;
 }
+@media  screen and (max-width:600px) {
+    .hero textarea{
+        width: 445px;
+    }
+    .row{
+        flex-direction: column;
+    }
+    .row select{
+        padding: 20px;
+        height: 218px;
+        font-size: 15px;
+        background-size: 8px;
+        background-position-y: 25px;
+        background-position-x: 98%;
+}
+        
+}
+@media  screen and (max-width:400px) {
+    .hero textarea{
+        width:324px;
+    }
+    .hero h1{
+        font-size: 20px;
+    }
+    .hero h1 span::after{
+        width: 0px;
+    }
+    
+}
+    
 
 
 
